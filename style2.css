@@ -48,8 +48,9 @@ a:visited {
 
 button{
     position:absolute;
-    top:50vh;
-    left:35%;
+    top:50vh; 
+    left: 50%;
+  margin-left: -50px;
     padding: 0.5rem 1rem;
     font-weight:bold;
     border-radius:50px;
