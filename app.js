@@ -1,4 +1,4 @@
-const colors = ["GREEN", "RED","WHITE","YELLOW", "PINK", "MAROON", "RGB(133,1,200)", "BLUE","PURPLE"];
+const colors = ["GREEN", "RED","WHITE","YELLOW", "PINK", "MAROON", "BLACK", "BLUE","PURPLE"];
 const clickButton = document.getElementById("click-btn");
 const colorName = document.querySelector(".color-name");
 
@@ -13,6 +13,8 @@ clickButton.addEventListener("click", ()=>{
 //FUNCTION TO GENERATE RANDOM NUMBERS
 
 function getRandomNumber(){
-   return Math.floor(Math.random()*colors.length);
+  
+    return Math.floor(Math.random()*colors.length);
+   
 }
 

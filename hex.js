@@ -11,7 +11,7 @@ clickMeBtn.addEventListener("click", ()=>{
         const randomNumber = getRandomNumber();
         colorCode += hex[randomNumber];
         document.body.style.backgroundColor = colorCode;
-        colorName.textContent = colorCode;           
+        colorName.textContent = colorCode;          
     }
     
    //FUNCTION TO GENERATE RANDOM NUMBERS
